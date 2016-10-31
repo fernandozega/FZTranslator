@@ -19,7 +19,11 @@ var index = template.Must(template.ParseFiles(
 ))
 
 // func helloworld(w http.ResponseWriter, req *http.Request) {
+<<<<<<< HEAD
 //  index.Execute(w, nil)
+=======
+  index.Execute(w, nil)
+>>>>>>> refs/remotes/origin/master
 // }
 
 func main() {
@@ -34,5 +38,9 @@ func main() {
 	log.Printf("Starting app on port %+v\n", port)
 	http.ListenAndServe(":"+port, nil)
 
+<<<<<<< HEAD
   fmt.Printf("hola, mundo\n")
+=======
+//  fmt.Printf("hello, world\n")
+>>>>>>> refs/remotes/origin/master
 }
