@@ -15,7 +15,7 @@ const (
 
 var index = template.Must(template.ParseFiles(
   "templates/_base.html",
-  "templates/index.html",
+  "templates/index2.html",
 ))
 
 func helloworld(w http.ResponseWriter, req *http.Request) {
