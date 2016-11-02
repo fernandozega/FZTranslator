@@ -1,0 +1,14 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: FZ Translator2
+  host: FZ-Translator2
+  disk_quota: 1024M
+  services:
+  - Language Translator-1w
+  - Speech to Text-ij
+  - Text to Speech-r0
+  - availability-monitoring-auto
+  buildpack: go_buildpack
